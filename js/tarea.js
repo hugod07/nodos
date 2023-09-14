@@ -1,4 +1,4 @@
-let seccion=document.getElementsByTagName('section');
+alet seccion=document.getElementsByTagName('section');
 console.log(seccion[2].innerText);
 let etiqueta=document.getElementsByTagName("ul");
 console.log(etiqueta[0].innerText);
@@ -16,7 +16,7 @@ borrar=document.getElementById('pie');
 borrar.innerHTML="@hugo";
 let elemento, contenido;
 elemento=document.createElement("img");
-contenido=document.createTextNode("Reemplazo")
+contenido=document.createTextNode("eliminar")
 elemento.appendChild(contenido);
 seccion[2].replaceChild(elemento,etiqueta[1]); 
 let parrafo, parrafo2;
